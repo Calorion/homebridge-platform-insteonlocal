@@ -192,7 +192,7 @@ cape_disable=bone_capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN
 cape_enable=bone_capemgr.enable_partno=BB-UART1,BB-UART2,BB-UART4,BB-UART5
 ```
 
-Enable:
+Edit and enable:
 ```
 ###Overide capes with eeprom
 uboot_overlay_addr0=/lib/firmware/BB-UART1-00A0.dtbo
