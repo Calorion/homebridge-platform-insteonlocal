@@ -174,14 +174,14 @@ The default connection reset duration is 1 hour and can be customized or disable
 
 For model 2242 hubs, the Connection Watcher wil determine if a request is in progress and, if not, close the connection.  This model of hub seems particularly sensitive to connection duration/number of connections, so this will effectively spare connections as much as possible an only create them on-demand.  The downside is that the eventListener will not function (as it requires a persistent connection), however polling will still update device status.
 
-Using The HubPro Model 2243 (Beta)
+Using The Hub Pro Model 2243 (Beta)
 -----------------------------------
-It is possible to use the official Insteon HubPro as a complete homebridge server and Insteon Hub. This requires flashing the HubPro and installing homebridge as normal. Inside the HubPro is a BeagleBoard Black Computer and a Power Line Modem connected via a serial connection.
+It is possible to use the official Insteon Hub Pro as a complete Homebridge server and Insteon Hub. This requires flashing the Hub Pro and installing Homebridge as normal. Inside the Hub Pro is a BeagleBoard Black Computer and a Power Line Modem connected via a serial connection.
 
 1. Follow the intructions here http://beagleboard.org/getting-started to create an microSD card with latest board software
 2. Open the HubPro removing the 6 screws on the bottom.
-3. Insert the SD Card.
-4. While holding down the Boot Button "S2" connect the power. Don't electrocute yourself. Wait until the LED starts flashing.
+3. Insert the SD Card into the BeagleBoard (the board with the Ethernet port. The slot is underneath the board on the opposite end to the Ethernet and USB ports).
+4. While holding down the Boot Button "S2" (the small button on the board above the SD card slot), connect the power. Wait until green LED on the board starts flashing.
 5. You should be able to connect via SSH now (username is 'debian' and the password is 'temppwd').
 6. Change the password!
 7. Enable the serial port by editing /boot/uEnv.txt
