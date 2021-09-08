@@ -202,7 +202,7 @@ uboot_overlay_addr3=/lib/firmware/BB-UART5-00A0.dtbo
 ```
 
 8. Reboot and log back in (same as step 4 & 5)
-9. Install homebridge and this plug as usual setting the model in config.json to 2243
+9. [Install homebridge](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux) and this plugin as usual, setting the model in config.json to 2243
 
 Donate
 -----------------------------------
