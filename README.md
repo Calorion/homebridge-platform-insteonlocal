@@ -183,8 +183,8 @@ It is possible to use the official Insteon Hub Pro as a complete Homebridge serv
 3. Insert the SD Card into the BeagleBoard (the board with the Ethernet port. The slot is underneath the board on the opposite end to the Ethernet and USB ports).
 4. While holding down the Boot Button "S2" (the small button on the board above the SD card slot), connect the power. Wait until green LED on the board starts flashing.
 5. You should be able to connect via SSH now (username is 'debian' and the password is 'temppwd').
-6. Change the password!
-7. Enable the serial port by editing /boot/uEnv.txt
+6. Change the password using the `passwd` command.
+7. Enable the serial port by editing /boot/uEnv.txt `vi /boot/uEnv.txt`
 
 Add:
 ```
